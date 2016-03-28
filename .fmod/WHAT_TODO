@@ -1,0 +1,4 @@
+mkdir /usr/local/include/fmodex
+cp les .h dans /usr/local/include/fmodex
+cp les .so dans /usr/local/lib
+des bisoux

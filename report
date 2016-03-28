@@ -1,0 +1,8 @@
+*** Error in `./bomber': double free or corruption (fasttop): 0x000000000226a0c0 ***
+======= Backtrace: =========
+/lib64/libc.so.6(+0x7410f)[0x7faf31b4010f]
+/lib64/libc.so.6(+0x7996e)[0x7faf31b4596e]
+/lib64/libc.so.6(+0x7a647)[0x7faf31b46647]
+LibBomberman_linux_x64/libs/libfbxsdk.so(_ZNK15fbxsdk_2014_2_19FbxObject8GetSceneEv+0x3c)[0x7faf32ffdf7c]
+LibBomberman_linux_x64/libs/libfbxsdk.so(_ZNK15fbxsdk_2014_2_17FbxNode21GetAnimationEvaluatorEv+0x16)[0x7faf332de566]
+LibBomberman_linux_x64/libs/libfbxsdk.so(_ZN15fbxsdk_2014_2_17FbxNode23EvaluateGlobalTransformENS_7FbxTimeENS0_9EPivotSetEbb+0x2c)[0x7faf332de73cSegmentation fault

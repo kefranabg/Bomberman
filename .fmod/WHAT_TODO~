@@ -1,0 +1,2 @@
+cp les .h dans /usr/local/include
+cp les .so dans /usr/local/lib
